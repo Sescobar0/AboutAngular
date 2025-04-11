@@ -2,6 +2,37 @@
 Angular es un framework para construir aplicaciones web dinámicas usando TypeScript. 
 Ofrece una arquitectura basada en componentes, inyección de dependencias, servicios y mucho más.
 
+🔧 Tecnologías clave en Angular
+
+Angular es un framework completo, y aunque su núcleo es TypeScript, 
+trabaja con un conjunto de tecnologías para ofrecer una solución robusta para aplicaciones web modernas.
+
+1. TypeScript
+🧠 Angular está escrito en TypeScript.
+Aporta seguridad, autocompletado, y una arquitectura orientada a objetos más fuerte.
+✅ Reemplaza a JavaScript tradicional en el desarrollo de Angular.
+
+2. HTML y CSS
+📄 Angular usa HTML para definir la estructura de las vistas (templates).
+🎨 Puedes usar CSS, SCSS (Sass), o incluso Tailwind para el estilo de componentes.
+
+3. RxJS (Reactive Extensions for JavaScript)
+🔄 Biblioteca para trabajar con programación reactiva y asincronía.
+Angular usa RxJS para:
+- Observables (por ejemplo, en peticiones HTTP)
+- Event handling
+- Reactive forms
+
+4. Zone.js
+🌀 Angular lo usa internamente para detectar cambios (Change Detection).
+
+5. Angular CLI
+💻 Herramienta de línea de comandos para crear, desarrollar y construir proyectos Angular.
+Facilita:
+- Generar componentes, servicios, módulos
+- Servir la app (ng serve)
+- Compilar y testear
+
 
 🧠 Explicación de cada uno de los conceptos de SOLID
 
