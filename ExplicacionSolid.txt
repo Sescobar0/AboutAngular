@@ -1,0 +1,44 @@
+🌟 ¿Qué es Angular?
+Angular es un framework para construir aplicaciones web dinámicas usando TypeScript. 
+Ofrece una arquitectura basada en componentes, inyección de dependencias, servicios y mucho más.
+
+
+🧠 Explicación de cada uno de los conceptos de SOLID
+
+S – Single Responsibility Principle (SRP)
+“Una clase debe tener una sola razón para cambiar.”
+📌 Cada clase o módulo debe encargarse de una sola cosa.
+🚫 Mal:
+Una clase que gestiona tareas, las guarda en archivo y también las pinta en pantalla.
+
+
+O – Open/Closed Principle (OCP)
+“El código debe estar abierto a extensión, pero cerrado a modificación.”
+📌 Deberías poder agregar nuevas funcionalidades sin tener que cambiar el código existente.
+🚫 Mal:
+Editar un switch gigante cada vez que hay una nueva funcionalidad.
+
+
+L – Liskov Substitution Principle (LSP)
+“Una subclase debe poder sustituir a su clase base sin romper la aplicación.”
+📌 Si tenés una clase base, cualquier clase hija debe funcionar igual de bien si se usa en su lugar.
+
+
+I – Interface Segregation Principle (ISP)
+“Es mejor tener muchas interfaces pequeñas y específicas que una sola grande.”
+📌 No forzar a las clases a implementar métodos que no necesitan.
+🚫 Mal:
+Una sola interfaz con 10 métodos que no todas las clases usan.
+
+
+D – Dependency Inversion Principle (DIP)
+“Las clases deben depender de abstracciones, no de implementaciones concretas.”
+📌 Tu clase debe depender de interfaces o clases abstractas, no directamente de otras clases.
+
+
+
+🎯 ¿Por qué usar SOLID?
+✨ Código más limpio y organizado
+🔁 Fácil de mantener y extender
+🧪 Más fácil de testear
+🔄 Menos errores al hacer cambios

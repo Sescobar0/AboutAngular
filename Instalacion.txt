@@ -1,0 +1,36 @@
+🛠️ Paso 1: Requisitos previos
+Asegurate de tener instalado:
+
+✅ Node.js (LTS)
+✅ Angular CLI
+✅ Visual Studio Code
+
+
+🆕 Paso 2: Crear el proyecto Angular
+En la terminal (puede ser la integrada en VS Code):
+
+- ng new angular-base
+🔍 Te va a hacer algunas preguntas:
+❓Would you like to add Angular routing? → No
+❓Which stylesheet format would you like to use? → Elegí CSS
+Esto va a crear una carpeta con todo listo.
+
+
+📁 Paso 3: Abrir el proyecto en VS Code
+
+cd angular-base
+code .
+
+code . abre el proyecto en VS Code. 
+
+
+🧪 Paso 4: Correr la app
+
+Dentro de la carpeta del proyecto, ejecutá:
+
+Ctrl + C    # Detenés ng serve
+ng serve    # Volvés a correr
+
+Angular compilará la app y te mostrará una URL como esta:
+📎 http://localhost:4200
+Abrila en el navegador y ¡ya tenés tu app corriendo!
